@@ -1,0 +1,27 @@
+.result {
+    font-size: 40px;
+    font-weight: bold;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.5);
+    background: linear-gradient(45deg,  #FF5F6D, 
+    #ff9500, 
+    #ffae00, 
+    #ffff00, 
+    #00ff00, 
+    #00ffe5, 
+    #ff4800);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: rainbow 2s ease-in-out infinite;
+  }
+  
+  @keyframes rainbow {
+    0% {
+      background-position: 0 0;
+    }
+    50% {
+      background-position: 100% 0;
+    }
+    100% {
+      background-position: 0 0;
+    }
+  }
